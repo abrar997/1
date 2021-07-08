@@ -1,11 +1,13 @@
-body{background-color: rgb(209, 196, 196);
+body{background-color: rgb(19, 10, 10);
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Lobster', cursive;
 font-family: 'Roboto Slab', serif;
 font-weight: bold;
 font-size: x-large;
-}
-.navbar{background-color: rgba(155, 127, 127, 0.753) !important;
+overflow-x: hidden;}
+
+
+.navbar{background-color: rgba(121, 23, 23, 0.753) !important;
 color: white;
 font-size: 15px;
 height: 65px
@@ -23,52 +25,17 @@ text-align: center;}
 
 .dropdown-menu :hover{background-color: rgb(56, 45, 45);
 color: white;}
+ .white-text{margin-top:60px;}
 
-/*
-.back::before {
-    content: '';
-    position: absolute;
-    bottom: 270px;
-    left: 0;
-    width: 100%;
-    height: 300px;
-    background: linear-gradient(to top, rgb(90, 77, 77), transparent);
-}
+ .form-control{width: 50px;}
 
-*/
-.white-text{margin-top:60px;}
-.form-control{width: 50px;}
-
-.card-deck >div  {background: rgb(141, 117, 117);}
+.card-deck >div  {background:  rgb(71, 5, 5);}
 
 .two{margin-top: 80px;}
+
 .card-deck{margin-top: 40px;}
 .card-deck :hover {cursor: pointer;}
-.two .btn{background: rgba(88, 75, 75, 0.753)!important;
-color: wheat;}
 
-/*.all img {transition: width 2s ease 2s;
-transform-origin: left;
-
-}
- .all img :hover{transform:Scale(1.2,1.1);
- }*/
-.three .btn{background: rgba(233, 18, 18, 0.753)!important;
-color: wheat;}
-
-.four .btn{background: rgba(233, 18, 18, 0.753)!important;
-color: wheat;}
-.five .btn{background: rgba(233, 18, 18, 0.753)!important;
-color: wheat;}
-
-/*.all {overflow-y: scroll;
-scroll-behavior: smooth;
-scroll-snap-type:none;
-scroll-margin-left: 200px;
-scrollbar-color: white;}
-
-.all { height: 600px;}
-*/
 
 .two  .view  {transition: all 2s  ease !important;
 }
@@ -77,26 +44,26 @@ scrollbar-color: white;}
 margin-left: 3px;
 }
 
-.card {background: rgb(141, 117, 117);
+.card {background: rgb(71, 5, 5);
 margin-top: 10px;}
-/*
-.card-img-top img{transition: all 1s ease;
-}
-.card-img-top img :hover {transform-origin: right;
-transform:scale3d(2,3,4);
-cursor: pointer;
 
-}
-*/
 
 .card-body>h4{color: rgba(216, 202, 202, 0.945); text-align: left;}
-.card-body :hover {cursor: pointer;}
-.all .btn {display: none;}
-films img {width: 90%; margin-left:10px;
-height: 130px;}
 
-body{overflow-x: hidden;}
-.footer .text-center .btn  {background: rgb(211, 171, 171)!important;color: rgb(8, 5, 5) !important;transition: all 1s ease ;}
+.card-body :hover {cursor: pointer;}
+
+.all .btn {display: none;}
+.all .card{height:240px}
+
+.all .container .row  .fa-angle-down {text-align: center;
+color: white;
+font-size: 36px;
+cursor: grab;
+}
+
+.footer .text-center .btn  {background: rgb(61, 11, 11)!important;
+    color: rgb(212, 202, 202) !important;
+    transition: all 1s ease ;}
 
 
 /*
